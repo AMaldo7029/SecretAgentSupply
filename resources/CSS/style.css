@@ -127,3 +127,11 @@ footer{
   text-align: left;
   padding: 5rem;
 }
+
+@media only screen and (max-width: 1024px){
+  li {
+    display: none;
+
+  }
+
+}
