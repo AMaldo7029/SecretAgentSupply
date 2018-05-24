@@ -65,10 +65,14 @@ nav{
   background-color: firebrick;
 }
 
-nav ul{
+.container ul{
   display: flex;
   justify-content: space-between;
   padding: 0.75rem;
+}
+
+.mobile-nav{
+  display: none;
 }
 
 .products{
@@ -129,9 +133,19 @@ footer{
 }
 
 @media only screen and (max-width: 1024px){
-  li {
+  .container ul {
     display: none;
+  }
 
+  .mobile-nav{
+    display: block;
+    text-align: center;
+  }
+
+  nav ul{
+    display: flex;
+    justify-content: center;
+    padding: 0.75rem 0;
   }
 
 }
