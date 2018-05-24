@@ -100,3 +100,31 @@ nav ul{
   background-color: black;
   text-align: center;
 }
+
+.lh-info{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+}
+
+.info {
+  width: 35%;
+  padding-bottom: 4rem;
+}
+
+.title{
+  background-color: black;
+  padding: 1rem  2rem;
+  display: block;
+}
+
+.num {
+color:black;
+}
+
+footer{
+  background-color: black;
+  text-align: left;
+  padding: 5rem;
+
+}
